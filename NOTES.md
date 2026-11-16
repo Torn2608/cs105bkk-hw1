@@ -12,4 +12,4 @@ The main trap was the aliasing in `Order.__init__`. Writing `lines=[]` as the de
 
 ## What would you do differently next time?
 
-I would write the edge-case checks, like the 300-baht limit, a quantity of 0 and the empty list, as my own pytest tests before writing the code, not as a script afterwards. Then they would run every time with `python -m pytest`. I would also write more of the code myself before asking an AI for help, so I practise the Session 1 to 3 ideas properly.
+I would write the edge-case checks, like the 300-baht limit, a quantity of 0 and the empty list, as my own pytest tests before writing the code, not as a script afterwards. Then they would run every time with `python -m pytest`. 
